@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "+qxDlzOBtwvl6VouccJ3M6sp+Hjb7kg2c7A9O+utI1s=",
+  "Source": "ProjetAPILinQ",
+  "BasePath": "_content/ProjetAPILinQ",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ProjetAPILinQ/wwwroot",
+      "Source": "ProjetAPILinQ",
+      "ContentRoot": "/Users/clement/Projects/ProjetAPILinQ/ProjetAPILinQ/wwwroot/",
+      "BasePath": "_content/ProjetAPILinQ",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/clement/Projects/ProjetAPILinQ/ProjetAPILinQ/wwwroot/index.html",
+      "SourceId": "ProjetAPILinQ",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/clement/Projects/ProjetAPILinQ/ProjetAPILinQ/wwwroot/",
+      "BasePath": "_content/ProjetAPILinQ",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
+}

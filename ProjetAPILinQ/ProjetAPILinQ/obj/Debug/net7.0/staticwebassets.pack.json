@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/clement/Projects/ProjetAPILinQ/ProjetAPILinQ/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.ProjetAPILinQ.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.ProjetAPILinQ.props",
+      "PackagePath": "build\\ProjetAPILinQ.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.ProjetAPILinQ.props",
+      "PackagePath": "buildMultiTargeting\\ProjetAPILinQ.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.ProjetAPILinQ.props",
+      "PackagePath": "buildTransitive\\ProjetAPILinQ.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
