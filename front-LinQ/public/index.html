@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestion Pokémon et Dresseurs</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<div class="container mt-3">
+    <h1>Gestion Pokémon et Dresseurs</h1>
+
+    <button id="loginBtn" class="btn btn-primary">Se connecter</button>
+    <div id="loginForm" style="display:none;">
+        <input type="text" id="username" placeholder="Nom d'utilisateur" required>
+        <input type="password" id="password" placeholder="Mot de passe" required>
+        <button onclick="login()">Connexion</button>
+    </div>
+
+    <div id="pokemons"></div>
+    <button id="addPokemon">Ajouter</button>
+    <div id="pokemonForm" style="display:none;">
+        <h2>Ajouter un Pokémon</h2>
+        <input type="text" id="pokemonName" placeholder="Nom du Pokémon" required>
+        <input type="text" id="pokemonType" placeholder="Type" required>
+        <input type="text" id="pokemonAttacks" placeholder="Attaques (séparées par une virgule)" required>
+        <input type="text" id="pokemonImg" placeholder="URL de l'image" required>
+        <button onclick="addPokemon()">Soumettre</button>
+    </div>
+
+
+    <div id="trainers"></div>
+    <button id="addTrainer">Ajouter</button>
+    <div id="trainerForm" style="display:none;">
+        <h2>Ajouter un Dresseur</h2>
+        <input type="text" id="trainerName" placeholder="Nom du Dresseur" required>
+        <input type="text" id="trainerAge" placeholder="Age" required>
+        <input type="text" id="trainerRegion" placeholder="Region" required>
+        <button onclick="addTrainer()">Soumettre</button>
+</div>
+
+<script src="/scripts.js"></script>
+</body>
+</html>
